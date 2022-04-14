@@ -1,0 +1,38 @@
+{
+    "ControlTrafficLight": {
+        "checkpoints": [
+            {
+                "steps": 499999,
+                "file_path": "results\\Test99\\ControlTrafficLight\\ControlTrafficLight-499999.onnx",
+                "reward": 388.150020802021,
+                "creation_time": 1648725787.7965987,
+                "auxillary_file_paths": [
+                    "results\\Test99\\ControlTrafficLight\\ControlTrafficLight-499999.pt"
+                ]
+            },
+            {
+                "steps": 500063,
+                "file_path": "results\\Test99\\ControlTrafficLight\\ControlTrafficLight-500063.onnx",
+                "reward": 388.150020802021,
+                "creation_time": 1648725787.8546126,
+                "auxillary_file_paths": [
+                    "results\\Test99\\ControlTrafficLight\\ControlTrafficLight-500063.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500063,
+            "file_path": "results\\Test99\\ControlTrafficLight.onnx",
+            "reward": 388.150020802021,
+            "creation_time": 1648725787.8546126,
+            "auxillary_file_paths": [
+                "results\\Test99\\ControlTrafficLight\\ControlTrafficLight-500063.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu115"
+    }
+}
